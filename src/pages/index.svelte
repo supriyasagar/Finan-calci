@@ -76,12 +76,17 @@
 </main>
 
 <style>
+    h1{
+        position:relative;
+        top: -20px;
+    }
     
     header{
         border: 1px solid rgb(14, 14, 14);
         background-color: rgb(230, 231, 231);
         border-radius: 30px;
         height: 50px;
+        text-align: center;
     }
 
     .pl{
@@ -99,11 +104,7 @@
         position: relative;
         top: 8px;
     }
-    h1{
-        position: relative;
-        left: 600px;
-        top: -15px;
-    }
+    
 
     h3{
         text-align: center;
