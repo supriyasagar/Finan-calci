@@ -17,10 +17,10 @@
 
 <body>
   <main>
-    <a href={$url('../')}> <h3>Home</h3> </a>
+    
     <div class="container">
         <div class="loan">
-          
+          <a href={$url('../')}> <h3>Home</h3> </a>
             <h1>Credit Card EMI Calculator</h1>
             <label for="input1">Loan Amount</label>
             <div class="input1">
@@ -60,7 +60,7 @@
     background-color: white;
     text-align: center;
     border-radius: 10px;
-    margin-left: 670px;
+    margin-left: 210px;
   }
   
   label{
@@ -126,6 +126,12 @@
 
     body{
       background-color: gray;
+    }
+
+    @media only screen and (max-width: 600px){
+      body{
+        background-color: white;
+      }
     }
 </style>
   

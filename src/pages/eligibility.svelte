@@ -17,8 +17,9 @@
   
 <body>
     <main>
-        <a href={$url('../')}> <h3>Home</h3> </a>
+        
         <div class="cards">
+          <a href={$url('../')}> <h3>Home</h3> </a>
           <h2>Credit Card Eligibility</h2>
           <form on:submit|preventDefault={checkEligibility}>
               <label  for="annualIncome">Annual Income:</label>
@@ -59,7 +60,7 @@
     background-color: rgb(10, 10, 10);
     text-align: center;
     border-radius: 10px;
-    margin-left: 670px;
+    margin-left: 170px;
   }
     .cards{
         width: 450px;
@@ -130,4 +131,10 @@
     font-weight: 600;
     margin-top: 7px;
   }
+
+  @media only screen and (max-width: 600px){
+      body{
+        background-color: white;
+      }
+    }
   </style>

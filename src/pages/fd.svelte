@@ -12,10 +12,11 @@
 
 <body>
   <main>
-    <a href={$url('../')}> <h3>Home</h3> </a>
+    
     <div class="container">
+      
         <div class="loan">
-          
+          <a href={$url('../')}> <h3>Home</h3> </a>
             <h1>Fixed Deposit Calculator</h1>
             <label for="input1">principal Amount</label>
             <div class="input1">
@@ -49,12 +50,23 @@
   h1{
     margin-left: 90px;
   }
+
   h3{
     width: 100px;
-    background-color: white;
+    height: 25px;
+    color: rgb(7, 6, 6);
+    background-color: rgb(251, 248, 248);
     text-align: center;
     border-radius: 10px;
-    margin-left: 670px;
+    margin-left: 210px;
+  }
+
+
+  .u-full-width{
+    margin-top: 5px;
+    width: 500px;
+    height: 25px;
+    border-radius: 10px;
   }
   
   label{
@@ -115,6 +127,12 @@
 
     body{
       background-color: gray;
+    }
+
+    @media only screen and (max-width: 600px){
+      body{
+        background-color: white;
+      }
     }
 </style>
   
