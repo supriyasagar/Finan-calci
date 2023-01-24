@@ -43,8 +43,8 @@
     <div class="card1">
         <img src="https://static.vecteezy.com/system/resources/previews/016/458/362/original/calculator-credit-card-flat-png.png" alt="" class="logo">
         <h3>Credit Card EMI Calculator</h3>
-        <p>Check your credit card eligibility with our Credit 
-            Card Eligibility Calculator.</p>
+        <p>Calculate your credit card EMI in a minute 
+            with credit card emi calculator</p>
         <button class="credit"><a href="/credit">Credit Card EMI</a></button>
     </div>
   
@@ -110,6 +110,7 @@
     }
 
     .cards{
+        justify-content: center;
         display: flex;
         flex-wrap: wrap;
     }

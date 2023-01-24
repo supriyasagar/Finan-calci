@@ -60,8 +60,7 @@
     background-color: white;
     text-align: center;
     border-radius: 10px;
-    position: relative;
-    left: 670px;
+    margin-left: 670px;
   }
   
 

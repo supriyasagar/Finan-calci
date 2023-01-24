@@ -54,20 +54,14 @@
     background-color: white;
     text-align: center;
     border-radius: 10px;
-    position: relative;
-    left: 670px;
+    margin-left: 670px;
   }
   
   label{
     font-size: 22px;
   }
 
-  .u-full-width{
-    margin-top: 5px;
-    width: 500px;
-    height: 25px;
-    border-radius: 10px;
-  }
+
 
   .years{
     display: flex;
